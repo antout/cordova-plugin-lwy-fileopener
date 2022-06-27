@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-lwy-fileopener",
+  "version": "1.0.0",
+  "description": "Plugin to download and open files with default application for Android devices",
+  "cordova": {
+    "id": "cordova-plugin-lwy-fileopener",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antout/cordova-plugin-lwy-fileopener.git"
+  },
+  "keywords": [
+    "file",
+    "downloader",
+    "opener",
+    "android",
+    "extension",
+    "MIME types",
+    "cordova",
+    "plugin",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "antout",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antout/cordova-plugin-lwy-fileopener/issues"
+  },
+  "homepage": "https://github.com/antout/cordova-plugin-lwy-fileopener#readme"
+}

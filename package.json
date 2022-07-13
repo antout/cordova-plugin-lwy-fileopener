@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-lwy-fileopener",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin to download and open files with default application for Android devices",
   "cordova": {
     "id": "cordova-plugin-lwy-fileopener",

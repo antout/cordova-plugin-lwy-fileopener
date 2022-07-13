@@ -151,6 +151,7 @@ public class FileOpener extends CordovaPlugin {
     private void openFile(Uri localUri, String extension, Context context, CallbackContext callbackContext) throws JSONException {
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         intent.setDataAndType(localUri, getMimeType(extension));
         JSONObject obj = new JSONObject();
 
